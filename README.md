@@ -1,2 +1,39 @@
 # naturadog-home
-Naturadog é uma página HTML estática sobre alimentação natural para cães. O projeto utiliza HTML5 e CSS3, com estrutura responsiva e otimizada para SEO, incluindo seções de receitas, dicas e conteúdos educativos para tutores.
+# 🐾 Naturadog
+
+**Naturadog** é uma página HTML estática dedicada à alimentação natural para cães.  
+O projeto tem como objetivo oferecer um site leve, responsivo e otimizado para SEO, trazendo conteúdo educativo, receitas caseiras e dicas práticas para tutores que desejam substituir rações e petiscos industrializados por opções naturais e saudáveis.
+
+---
+
+## 🔧 Tecnologias utilizadas
+- **HTML5** → estrutura semântica do site  
+- **CSS3** → estilização e responsividade  
+- **JavaScript** (opcional/futuro) → pequenas interações  
+- Estrutura pensada para **SEO básico**
+
+---
+
+## 📂 Estrutura do projeto
+/naturadog
+│── index.html # Página inicial
+│── receitas.html # Receitas naturais para cães
+│── dicas.html # Dicas e orientações práticas
+│── contato.html # Contato/redes sociais
+│
+├── /assets # Imagens e ícones
+└── /styles # Arquivos CSS
+
+
+---
+
+## 🚀 Próximos passos
+- [ ] Implementar versão totalmente responsiva (mobile-first)  
+- [ ] Adicionar meta tags e alt text para SEO  
+- [ ] Criar seção de captação de leads (ex.: eBook gratuito)  
+- [ ] Explorar integração futura com blog (Markdown ou CMS simples)  
+
+---
+
+## 📜 Licença
+Este projeto é open-source e está sob a licença [MIT](LICENSE).
