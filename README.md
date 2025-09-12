@@ -14,19 +14,6 @@ O projeto tem como objetivo oferecer um site leve, responsivo e otimizado para S
 
 ---
 
-## 📂 Estrutura do projeto
-/naturadog
-│── index.html # Página inicial
-│── receitas.html # Receitas naturais para cães
-│── dicas.html # Dicas e orientações práticas
-│── contato.html # Contato/redes sociais
-│
-├── /assets # Imagens e ícones
-└── /styles # Arquivos CSS
-
-
----
-
 ## 🚀 Próximos passos
 - [ ] Implementar versão totalmente responsiva (mobile-first)  
 - [ ] Adicionar meta tags e alt text para SEO  
