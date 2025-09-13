@@ -1,0 +1,11 @@
+:root {
+    --color-primary: #2c5d3f;
+    --color-secondary: #71aa7c;
+    --color-tertiary: #725e54;
+    --color-light: #ffffff;
+    --color-dark: #01172fff;
+
+    --font-primary: 'Roboto', sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;
+    
+}

@@ -1,0 +1,49 @@
+/* Reset Total: remove todos os estilos padrões */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove margens e paddings do body e html */
+html, body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+/* Zera listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Zera tabelas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Zera elementos de mídia */
+img, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Zera formulários */
+input, button, textarea, select {
+  all: unset;
+  box-sizing: border-box;
+  appearance: none;
+}
+
+/* Links sem estilo */
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+/* Botões clicáveis */
+button {
+  cursor: pointer;
+}
