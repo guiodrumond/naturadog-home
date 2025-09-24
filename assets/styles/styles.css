@@ -192,6 +192,7 @@ section {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  line-height: 1.5;
 }
 
 .about-image {
