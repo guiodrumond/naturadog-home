@@ -48,9 +48,3 @@ a {
 button {
   cursor: pointer;
 }
-
-i {
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900; /* necessário para ícones sólidos */
-  display: inline-block;
-}

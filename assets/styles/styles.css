@@ -20,7 +20,7 @@ header {
 }
 
 section {
-  scroll-margin-top: 40px;
+  scroll-margin-top: 60px;
 }
 
 .site-logo {
@@ -167,7 +167,7 @@ section {
 }
 
 
-.about-wrapper>div {
+.about-wrapper div {
   font-family: var(--font-primary);
 }
 
@@ -178,6 +178,8 @@ section {
 }
 
 .about-header h2 {
+
+  line-height: 1.2;
   font-size: 2rem;
   margin-top: 24px;
 }
@@ -240,6 +242,7 @@ section {
 .beneficios-container h2 {
   font-size: 2rem;
   margin-bottom: 24px;
+  line-height: 1.2;
 }
 
 .beneficios-container p {
@@ -272,6 +275,100 @@ section {
   font-size: 0.95rem;
   text-align: center;
   line-height: 1.5;
+}
+
+.ebook-container {
+  background-color: var(--color-light-background);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  font-family: var(--font-primary);
+}
+
+.ebook-container div {
+  width: 50%;
+  min-height: 680px;
+}
+
+.ebook-mockup figure {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.ebook-mockup img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.ebook-content {
+  padding: 80px 112px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
+
+.ebook-content h2 {
+  line-height: 1.2;
+  font-size: 2rem;
+  margin-bottom: 24px;
+}
+
+.ebook-content p {
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.ebook-content h3 {
+  line-height: 1;
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+.ebook-content form {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  margin-top: 24px;
+  align-items: flex-start;
+}
+
+.ebook-content label {
+  width: 100%;
+}
+
+.ebook-content input {
+  width: 100%;
+  border: 1px solid var(--color-dark);
+  margin: 12px 0;
+  padding: 1rem;
+}
+
+.btn-ebook {
+  max-height: 3rem;
+  background-color: var(--color-tertiary);
+  color: var(--color-light);
+  font-family: var(--font-primary);
+  text-align: center;
+  padding: 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-ebook:hover {
+  background-color: var(--color-primary);
+}
+
+.btn-ebook:active {
+  background-color: var(--color-primary);
+  transform: translateY(0);
+  box-shadow: none;
 }
 
 
