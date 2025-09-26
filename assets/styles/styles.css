@@ -178,7 +178,6 @@ section {
 }
 
 .about-header h2 {
-
   line-height: 1.2;
   font-size: 2rem;
   margin-top: 24px;
@@ -371,6 +370,121 @@ section {
   box-shadow: none;
 }
 
+.carrossel-blog {
+  width: 100%;
+  padding: 80px 112px;
+  display: flex;
+  flex-flow: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--color-light);
+  font-family: var(--font-primary);
+  color: var(--color-dark);
+}
+
+.carrossel-blog h2 {
+  line-height: 1.2;
+  font-size: 2rem;
+  margin-top: 24px;
+}
+
+.carrossel-blog .carrossel-blog-apresentation {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 34px 0;
+}
+
+.carrossel-container {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.carrossel-container .card {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: var(--color-dark);
+  background-color: var(--color-light);
+}
+
+.carrossel-container figure {
+  aspect-ratio: 4 / 3;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carrossel-container figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carrossel-container .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.carrossel-container .article-categoria {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-top: 18px;
+  margin-bottom: 12px;
+}
+
+.carrossel-container .article-title {
+  font-size: 1.3rem;
+  line-height: 1.3;
+  text-align: left;
+}
+
+.carrossel-container .article-content {
+  text-align: left;
+  margin-top: 18px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.carrossel-container .leia-mais {
+  white-space: nowrap;
+  color: var(--color-secondary);
+  margin-top: 8px;
+}
+
+.carrossel-container .leia-mais:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.carrossel-container .card-footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+}
+
+.carrossel-container .card-footer img {
+  width: 48px;
+  border-radius: 50%;
+}
+
+.carrossel-container .card-footer .info {
+  height: 48px;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 0.9rem;
+}
+
+.carrossel-container .card-footer .author-name {
+  font-weight: 600;
+}
 
 @media (max-width: 1210px) {
   header {
